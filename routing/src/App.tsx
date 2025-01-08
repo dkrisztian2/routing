@@ -7,8 +7,10 @@ import About from './pages/About'
 function App() {
 
   return (
-    <div className='container'>
-      
+    <div className='border-div'>
+
+    
+    <div className='container'>    
       <BrowserRouter>
       <div className='nav'>
       <Link to='/'>Home</Link>
@@ -22,6 +24,8 @@ function App() {
         </Routes>
       </BrowserRouter>
       
+    </div>
+
     </div>
   )
 }
